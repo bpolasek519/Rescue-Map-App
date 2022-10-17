@@ -6,6 +6,7 @@ let mapOptions = {
     zoom: 10,
     mapId: "197e4e157a73fc6f",
     mapTypeId: google.maps.MapTypeId.ROADMAP
+    testing...
 }
 
 //create Map
