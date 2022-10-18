@@ -22,27 +22,27 @@
                         <input type="text" id="from" placeholder="Foster Address" class="form-control">
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="to" class="col-xs-2 control label"><i class = "fas fa-map-marker-alt"></i></label>
-                    <div class="col-xs-4">
-                        <input type="text" id="to" placeholder="Destination" class="form-control">
-                    </div>
-                </div>
             </form>
             <div class="col-xs-offset-2 col-xs-10">
-                <button class="btn btn-info btn-lg" onclick ="callback()"><i class = "fas fa-directions"></i></button>
+                <button class="btn btn-info btn-lg"><i class = "fas fa-directions"></i></button>
             </div>
         </div>
         <div class="container-fluid">
-            <div id="googleMap">
-            
-            </div>
             <div id="output">
-
+                <ul class="list-group">
+                    <li class="list-group-item">Caitie: <span id = "Caitie"></span></li>
+                    <li class="list-group-item">Brittanie: <span id="Brittanie"></span></li>
+                    <li class="list-group-item">Amanda: <span id="Amanda"></span></li>
+                    <li class="list-group-item">Marie: <span id="Marie"></span></li>
+                    <li class="list-group-item">Cameo: <span id="Cameo"></span></li>
+                    <li class="list-group-item">Emily: <span id="Emily"></span></li>
+                    <li class="list-group-item">Josie: <span id="Josie"></span></li>
+                  </ul>
             </div>
         </div>
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqicw8EWoGd0VS-CabUtzgS9NnxPZ9uwM&v=beta&libraries=marker,places&callback=initMap"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqicw8EWoGd0VS-CabUtzgS9NnxPZ9uwM&v=beta&libraries=places"></script>
     <script src="app.js"></script>
 </body>
 </html>
