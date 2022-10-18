@@ -1,4 +1,3 @@
-
 document.querySelector('button').addEventListener('click', calculateDistance)
 
 // set map options
