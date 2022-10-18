@@ -57,3 +57,8 @@ body {
     border-right: 8px solid transparent;
     border-top: 8px solid #4285F4;
   }
+
+  .list-group-item{
+    width: 50%;
+    margin: auto;
+  }

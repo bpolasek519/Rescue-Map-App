@@ -21,23 +21,6 @@ function calculateDistance(){
     })
 }
 
-// function shortestTime(){
-//     function calculateDistance(){
-//         const URL = `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/distancematrix/json?origins=${document.getElementById('from').value}&destinations=29.73317,-95.53036|29.83738,-95.78578|29.82379,-95.51773|29.69031,-95.14257|29.66733,-95.00992|29.65384,-95.48553|29.52821,-95.22296&key=AIzaSyDqicw8EWoGd0VS-CabUtzgS9NnxPZ9uwM`
-//         fetch(URL)
-//         .then(res => res.json())
-//         .then(data => {
-//             console.log(data)
-//         })
-//         .catch(error => {
-//             console.log(error.message)
-//         })
-//     }
-//     const result = calculateDistance()
-
-//     console.log(result.data.rows[0].elements[0].duration.text)
-// }
-
 let options = {
     types: ['address']
 }
